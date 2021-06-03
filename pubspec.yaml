@@ -1,0 +1,11 @@
+name: twentyfifty_linter
+version: 1.0.0
+description: >-
+  The Dart analyzer settings and best practices used internally at 20Fifty.
+homepage: https://github.com/20fifty/20Fifty_linter
+
+environment:
+  sdk: ">=2.13.0-0 <3.0.0"
+
+dependencies:
+  pedantic: ^1.11.0

@@ -1,4 +1,17 @@
 include: package:pedantic/analysis_options.1.11.0.yaml
+analyzer:
+  errors:
+    prefer_collection_literals: warning
+    unused_element: error
+    unused_import: error
+    unused_local_variable: error
+    dead_code: error
+    missing_required_param: error
+  exclude:
+    - lib/**.freezed.dart
+    - lib/**.g.dart
+    - lib/**.gr.dart
+
 linter:
   rules:
     avoid_print: true

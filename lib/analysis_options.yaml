@@ -1,4 +1,4 @@
-include: package:pedantic/analysis_options.1.11.0.yaml
+include: package:pedantic/flutter_lints.1.0.3.yaml
 analyzer:
   errors:
     prefer_collection_literals: warning

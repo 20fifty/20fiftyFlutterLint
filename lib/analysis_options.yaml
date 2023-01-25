@@ -1,4 +1,4 @@
-include: package:pedantic/flutter_lints.1.0.3.yaml
+include: package:flutter_lints/flutter.yaml
 analyzer:
   errors:
     prefer_collection_literals: warning
@@ -27,3 +27,5 @@ linter:
     unnecessary_this: true
     prefer_collection_literals: true
     prefer_single_quotes: false
+    always_use_package_imports: true
+    prefer_relative_imports: false

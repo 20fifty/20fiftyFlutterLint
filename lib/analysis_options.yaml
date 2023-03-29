@@ -7,6 +7,7 @@ analyzer:
     unused_local_variable: error
     dead_code: error
     missing_required_param: error
+    always_use_package_imports: error
   exclude:
     - lib/**.freezed.dart
     - lib/**.g.dart

@@ -10,7 +10,7 @@ analyzer:
     always_use_package_imports: error
     sized_box_for_whitespace: error
     avoid_function_literals_in_foreach_calls: error
-#    unnecessary_string_interpolations: error
+    unnecessary_string_interpolations: error
 #    deprecated_member_use: warning
 #    non_constant_identifier_names: error
 #    avoid_renaming_method_parameters: warning

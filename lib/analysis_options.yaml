@@ -16,7 +16,7 @@ analyzer:
     avoid_renaming_method_parameters: warning
     void_web_libraries_in_flutter: ignore
     prefer_typing_uninitialized_variables: error
-#    constant_identifier_names: error
+    constant_identifier_names: error
     exclude:
     - lib/**.freezed.dart
     - lib/**.g.dart
